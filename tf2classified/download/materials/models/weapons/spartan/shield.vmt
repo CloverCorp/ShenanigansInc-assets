@@ -1,0 +1,44 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/spartan/shield"
+	"$bumpmap" "models/weapons/spartan/shield_normal"
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" "3"	
+	"$lightwarptexture" "models\weapons\c_items/c_ambassador_lightwarp"
+	"$phongfresnelranges"	"[0.5 1 2]"
+	"$phongwarptexture"  "models\weapons\spartan/shield_phongwarp"
+
+
+	"$rimlight" "1"
+	"$rimlightexponent" "75"	
+	"$rimlightboost" "1"
+
+	"360?$color2" "[ 0.9 0.8 0.8 ]"
+
+
+	"$glowcolor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"weapon_invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}

@@ -1,0 +1,77 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/workshop/weapons/c_models/c_horsemann_heater/c_horsemann_heater_light_blue"
+
+	"$lightwarptexture" "models/buildables/sentry1/Sentry1_lightwarp"
+
+	"$basemapalphaphongmask" "1" 
+	"$selfillum" "1"
+	"$phong"	"0"
+	"$phongboost"	"1"
+	"$phongexponent"	"1"
+                "$phongtint" "[1.4 1 1]"
+	"$phongfresnelranges"	"[.5 1 2]"
+	"$glowcolor" "1"
+                "$nocull" "1"
+
+	"$additive" "1"
+	"$yellow" "0"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Multiply"
+		{
+			"srcVar1" "$color2"
+			"srcVar2" "$yellow"
+			"resultVar" "$color2"
+		}
+		"Sine"
+		{
+			"sineperiod" "2"
+			"sinemin" 0.5
+			"sinemax" 1
+			"resultVar" "$selfillumtint"
+		}
+		"Sine"
+		{
+			"sineperiod" "1"
+			"sinemin" 0.7
+			"sinemax" 1.5
+			"resultVar" "$selfillumtint"
+		}
+		"Sine"
+		{
+			"sineperiod" "2"
+			"sinemin" 1
+			"sinemax" 2
+			"resultVar" "$selfillumtint"
+
+		}
+
+	}
+}

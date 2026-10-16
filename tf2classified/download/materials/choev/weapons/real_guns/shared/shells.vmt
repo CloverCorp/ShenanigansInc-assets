@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	$basetexture					"ChoEv/Weapons/Real_Guns/Shared/Shells_D"
+	$bumpmap						"ChoEv/Weapons/Real_Guns/Shared/Shells_N"
+
+	$normalmapalphaphongmask		"1"
+	$phong							"1"
+	$phongexponent					"25"
+	$phongboost						"8"	
+	$lightwarptexture				"models\lightwarps\weapon_lightwarp"
+	$phongfresnelranges				"[.25 .5 1]"
+}

@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/player/hvyweapon/goggle_blue"
+	"$envmap"	"models/player/hvyweapon/goggle_blue"
+	"$envmapsphere" "1"
+	"$surfaceprop"	"flesh"
+
+	"$halflambert" "1"
+	
+    "$bumpmap"    "models/player/shared/shared_normal"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+	}
+}

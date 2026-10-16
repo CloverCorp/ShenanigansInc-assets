@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\weapons\c_models\c_spartan/c_spartanv2_large"
+	"$translucent" 1
+}

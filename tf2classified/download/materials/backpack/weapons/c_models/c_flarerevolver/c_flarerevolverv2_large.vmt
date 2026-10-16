@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/c_models/c_flarerevolver/c_flarerevolverv2_large"
+	$translucent 1
+	$vertexcolor 1
+}

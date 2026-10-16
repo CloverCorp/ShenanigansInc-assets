@@ -1,0 +1,44 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/alaxe/coconutgun/gun"
+	"$bumpmap" "models/alaxe/coconutgun/coconutgun_normal"
+	"$nocull" "1"
+	"$phong" "1"
+	"$phongexponent" "28"	
+
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.3 .5 3]"
+	"$halflambert" "1"
+	"$phongtint" "[.38 .17 .03]"
+
+	
+	"$rimlight" "1"
+	"$rimlightexponent" "100"	
+	"$rimlightboost" ".1"	
+
+
+	"$glowcolor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"weapon_invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}

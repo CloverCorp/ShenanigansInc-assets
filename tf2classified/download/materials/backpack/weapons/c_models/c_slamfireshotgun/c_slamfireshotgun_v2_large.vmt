@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/weapons/c_models/c_slamfireshotgun/c_slamfireshotgun_v2_large"
+	"$translucent"		"1"
+}

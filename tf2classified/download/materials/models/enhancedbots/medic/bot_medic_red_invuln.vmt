@@ -1,0 +1,17 @@
+"Patch"
+{
+	include "materials\models\player\shared\invuln_red.vmt"
+
+	insert
+	{
+		"$basetexture"			"models\enhancedbots\medic\red\bot_medic_red"
+	
+		"$EmissiveBlendEnabled"			"1"
+		"$EmissiveBlendStrength" 		"1"
+		"$EmissiveBlendTexture" 		"vgui/white"
+		"$EmissiveBlendBaseTexture"		"models\enhancedbots\medic\bot_medic_emission"
+		"$EmissiveBlendFlowTexture" 	"vgui/white"
+		"$EmissiveBlendTint" 			"[.8 .7 .4]"
+		"$EmissiveBlendScrollVector"	"[ 0 0 ]"
+	}
+}

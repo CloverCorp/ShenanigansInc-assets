@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\models\player\shared\invuln_blue.vmt"
+
+	insert
+	{
+		"$basetexture"			"models\enhancedbots\scout\blue\bot_scout_head_blue"
+	}
+}

@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/c_sickle/c_sickle"
+
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$basemapalphaphongmask" "1"
+
+
+	"$phong" 		"1"
+	"$phongexponent" 		"5"
+	"$phongboost" 		"5"	
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+
+	"$rimlight" 		"1"
+	"$rimlightexponent"	 "4"
+	"$rimlightboost" 		"2"		
+}

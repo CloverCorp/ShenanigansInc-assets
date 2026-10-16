@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\models\enhancedbots\sniper\sniper_bot_head_red.vmt"
+
+	insert
+	{
+		"$basetexture"			"models\enhancedbots\sniper\blue\sniper_bot_head_blue"
+	}
+}

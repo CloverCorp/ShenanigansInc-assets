@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\weapons\c_items\c_plushie\faceanim"
+	$translucent 1
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+
+"AnimatedTexture"
+{
+"animatedtexturevar" "$basetexture"
+"animatedtextureframenumvar" "$frame"
+"animatedtextureframerate" "15"
+}
+
+	}
+
+
+}

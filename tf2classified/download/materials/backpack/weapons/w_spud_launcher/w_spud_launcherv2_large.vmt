@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\weapons\w_spud_launcher\w_spud_launcherv2_large.vtf"
+	$translucent 1
+}

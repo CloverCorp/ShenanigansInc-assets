@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"backpack\workshop\player\sniper\c_pissonmyback\c_pissonmyback_large"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

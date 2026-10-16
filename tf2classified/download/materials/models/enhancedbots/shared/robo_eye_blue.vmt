@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\models\enhancedbots\shared\robo_eye_red.vmt"
+
+	insert
+	{
+		"$basetexture"			"models\enhancedbots\shared\robo_eye_blue"
+	}
+}

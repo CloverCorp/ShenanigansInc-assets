@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\weapons\c_models\c_full_throttle\c_full_throttlev2_large"
+	$translucent 1
+}

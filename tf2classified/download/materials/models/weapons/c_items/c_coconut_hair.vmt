@@ -1,0 +1,34 @@
+"VertexLitGeneric"
+{
+	$baseTexture "models\weapons\c_items/c_coconut_hair"
+	"$bumpmap" "models\effects\flat_normal" 
+	"$yellow" "0"
+
+	"$translucent" "1" 
+	"$nocull" "1"
+
+	"$glowcolor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"weapon_invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}

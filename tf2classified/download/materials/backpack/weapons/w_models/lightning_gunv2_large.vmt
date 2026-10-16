@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_models/lightning_gunv2_large.vtf"
+	"$translucent" 1
+	$vertexcolor 1
+}

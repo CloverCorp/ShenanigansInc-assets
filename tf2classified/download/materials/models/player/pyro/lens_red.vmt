@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/player/pyro/lens_red"
+	"$envmap"	"models/player/pyro/lens_red"
+	"$envmapsphere" "1"
+	"$surfaceprop"	"flesh"
+	"$bumpmap"    "models/player/shared/shared_normal"
+
+	"$halflambert" "1"
+	
+    "$phong" "1"
+    "$phongexponent" "1.5"
+    "$phongboost" "0.001"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+	}
+}

@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+//Main
+	$basetexture					"ChoEv/Weapons/Warhammer/Imperium/Ranged/Bolt_Rifle/Bolt_Rifle_RED_D"
+	$bumpmap						"ChoEv/Weapons/Warhammer/Imperium/Ranged/Bolt_Rifle/Bolt_Rifle_N"
+
+//Other
+	$lightwarptexture				"models/lightwarps/weapon_lightwarp"
+	$halflambert					"1"
+	$normalmapalphaphongmask		"1"
+	$glowcolor						"1"
+
+//Phong
+	$phong							"1"
+	$phongexponent					"35"
+	$phongboost						"0.25"
+	$phongfresnelranges				"[.25 .5 1]"
+	$phongtint						"[238 197 13]"
+}

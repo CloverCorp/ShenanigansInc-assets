@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/c_models/c_lmg_chaingrinder/c_lmg_chaingrinderv2_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

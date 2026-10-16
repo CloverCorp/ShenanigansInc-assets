@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"backpack\workshop\player\heavy\c_bombbag\c_bombbag_large"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

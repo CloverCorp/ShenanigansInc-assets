@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/c_models/c_monroe_doctrine/c_monroe_doctrinev2_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

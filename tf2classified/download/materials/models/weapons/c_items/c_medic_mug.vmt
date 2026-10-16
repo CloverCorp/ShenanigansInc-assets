@@ -1,0 +1,44 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/weapons/c_items/c_medic_mug"
+	"$bumpmap"	"models/weapons/c_items/c_medic_mug_phongmask"
+
+	"$phong" "1"
+	"$phongexponent" "26"
+	"$phongboost" "0.5"	
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$phongfresnelranges" "[1 .5 1.5]"
+	"$halflambert" "1"
+
+	"$basemapalphaphongmask" "0"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "15"	
+	"$rimlightboost" "2"
+
+	"$glowcolor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"weapon_invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}
+

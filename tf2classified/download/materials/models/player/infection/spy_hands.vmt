@@ -1,0 +1,33 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/infection/spy_hands"
+	"$bumpmap" "models/player/infection/spy_hands_normal"
+	"$bumpmapalphaphongmask" "1" 
+
+	"$phong" "1"
+	"$phongexponent" "40"
+	"$phongboost" "0.25"	
+	"$lightwarptexture" "models/player/engineer/engineer_hands_lightwarp"
+	"$phongfresnelranges"	"[1 5 60]"
+	"$halflambert" "1"
+	//"$phongtint" "{118 158 44}"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "1"										// Boost for ambient cube component of rim lighting
+
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"spy_invis" //wmodel and team color cloak support
+		{
+		}
+		"invis" //vmodel cloak support
+		{
+		}
+	}
+}
+
+
+

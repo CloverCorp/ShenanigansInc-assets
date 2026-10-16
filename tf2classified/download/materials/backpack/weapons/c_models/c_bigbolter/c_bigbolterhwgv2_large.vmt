@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\weapons\c_models\c_bigbolter\c_bigbolterhwgv2_large"
+	$translucent 1
+}

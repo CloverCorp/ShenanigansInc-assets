@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/player/spy/lens_blue"
+	"$envmap"	"models/player/spy/lens_blue"
+	"$envmapsphere" "1"
+	"$surfaceprop"	"flesh"
+	"$bumpmap"    "models/player/shared/shared_normal"
+	
+	"$halflambert" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+	}
+}

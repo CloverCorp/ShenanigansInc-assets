@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "backpack/weapons/c_models/c_halo_pistol/c_halo_pistolv2_large"
+	$translucent 1
+}

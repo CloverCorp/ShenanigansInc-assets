@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/lucian/props/stupid_bee/bee_eye"
+	"$halflambert" "1"
+}

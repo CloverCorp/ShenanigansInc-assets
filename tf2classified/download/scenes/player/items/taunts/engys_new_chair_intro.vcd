@@ -1,0 +1,23 @@
+// Choreo version 1
+event loop "intro"
+{
+  time 27.850000 -1.000000
+  param "7.000000"
+  loopcount "-1"
+}
+actor "engys_new_chair_articlulated"
+{
+  channel "body"
+  {
+    event sequence "chair_intro_qcistyle"
+    {
+      time 0.000000 27.866667
+      param "chair_intro_qcistyle"
+      fixedlength
+    }
+  }
+}
+
+fps 60
+snap off
+ignorePhonemes off

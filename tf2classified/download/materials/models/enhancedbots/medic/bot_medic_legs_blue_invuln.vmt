@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\models\player\shared\invuln_blue.vmt"
+
+	insert
+	{
+		"$basetexture"			"models\enhancedbots\medic\blue\bot_medic_legs_blue"
+	}
+}

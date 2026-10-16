@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\models\player\shared\invuln_red.vmt"
+
+	insert
+	{
+		"$basetexture"			"models\enhancedbots\engineer\red\engineer_bot_red"
+	}
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\weapons\c_items\c_bignuke\c_bignukev2_large"
+	$translucent 1
+	$vertexcolor 1
+}

@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\models\enhancedbots\pyro\pyro_bot_gib_red.vmt"
+
+	insert
+	{
+		"$basetexture" "models\enhancedbots\pyro\blue\pyro_bot_blue"
+	}
+}

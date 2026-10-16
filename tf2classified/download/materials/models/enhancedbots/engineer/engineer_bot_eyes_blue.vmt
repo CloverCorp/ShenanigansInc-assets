@@ -1,0 +1,10 @@
+"Patch"
+{
+	include "materials\models\enhancedbots\engineer\engineer_bot_eyes_red.vmt"
+
+	insert
+	{
+		"$basetexture"			"models\enhancedbots\engineer\blue\engineer_bot_head_blue"
+		"$envmaptint"			"[.4 .4 .75]"
+	}
+}

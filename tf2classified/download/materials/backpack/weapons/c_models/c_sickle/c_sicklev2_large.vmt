@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/c_models/c_sickle/c_sicklev2_large"
+	$translucent 1
+}

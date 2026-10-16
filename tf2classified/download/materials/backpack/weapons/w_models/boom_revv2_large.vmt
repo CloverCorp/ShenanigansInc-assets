@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"backpack\weapons\w_models/boom_revv2_large"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

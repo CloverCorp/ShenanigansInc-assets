@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\weapons\c_models\c_cashgrab\c_cashgrab_large"
+	$translucent 1
+}

@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\models\player\shared\invuln_blue.vmt"
+
+	insert
+	{
+		"$basetexture"			"models\enhancedbots\heavy\blue\heavy_bot_blue"
+	}
+}

@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+//Main
+	$basetexture					"ChoEv/Weapons/Real_Guns/FN_M249/Holo_Sign_D"
+	$nocull							"1"
+	$additive						"1"
+}

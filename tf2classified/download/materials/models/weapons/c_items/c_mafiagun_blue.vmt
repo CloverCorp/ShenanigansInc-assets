@@ -1,0 +1,74 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\c_items\c_mafiagun_blue"
+	//"$bumpmap" "models\weapons\c_items\c_mafiagun_normal"
+	"$basemapalphaphongmask"	"1"
+	//"$surfaceprop" "metal"
+	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost" "2"
+	//"$PhongExponentTexture" "models\weapons\c_items\c_mafiagun_phongexponent"
+	//"$selfillum" "1"
+	"$lightwarptexture" "models/lightwarps/softened_weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+	"$tempvar" "0"
+	"$commadd_phongexponent" "40"
+	"$commadd_phongboost" 	"22.5"
+	"$commweapon"		"0"
+	"$glowcolor" "1"
+	"$rimlight" "1"		
+	"$rimexponent" "15"				
+	"$rimlightboost" "0.3"							
+	
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"weapon_invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+		"CommunityWeapon"
+		{
+			"resultVar" "$commweapon"
+		}
+		"Multiply"
+		{
+			"srcVar1"  "$commweapon"
+			"srcVar2"  "$commadd_phongexponent" 
+			"resultVar" "$tempvar" 
+		}
+		"Add"
+		{
+			"srcVar1"  "$tempvar" 
+			"srcVar2"  "$basephongexponent" 
+			"resultVar" "$phongexponent" 
+		}
+		"Multiply"
+		{
+			"srcVar1"  "$commweapon"
+			"srcVar2"  "$commadd_phongboost" 
+			"resultVar" "$tempvar" 
+		}
+		"Add"
+		{
+			"srcVar1"  "$tempvar" 
+			"srcVar2"  "$basephongboost"
+			"resultVar" "$phongboost" 
+		}
+
+	}
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_models/w_banana_launcher_v3_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

@@ -1,0 +1,42 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\halo\assaultrifle"
+	
+	"$glowcolor" "1"
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "12"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+	"$halflambert" "1"
+	"$selfillum" "1"
+	"$selfillummask" "models\weapons\halo\assaultrifle_illum"
+
+	"$basemapalphaphongmask" "1"
+	
+	"$rimlight" "1"						
+	"$rimlightexponent" "80"				
+	"$rimlightboost" ".05"
+
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"ModelGlowColor"
+		{
+			"resultVar""$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$color2"
+		}
+		"spy_invis"
+		{
+		}
+	}
+}

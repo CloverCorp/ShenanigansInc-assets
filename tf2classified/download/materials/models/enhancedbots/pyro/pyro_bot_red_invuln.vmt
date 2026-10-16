@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\models\player\shared\invuln_red.vmt"
+
+	insert
+	{
+		"$basetexture"			"models\enhancedbots\pyro\red\pyro_bot_red"
+	}
+}

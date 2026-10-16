@@ -1,0 +1,27 @@
+"UnlitTwoTexture"
+{
+	"$baseTexture" "models/weapons/v_lightning_gun/lightning_gun_screen"
+	"$texture2"  "models/weapons/v_lightning_gun/lightning_gun_screen_gradient"
+	
+	"$glowcolor" "1"
+	"$cloakPassEnabled" "1"
+	"$txScale" "1"
+
+	"$yellow" "0"
+	
+	"$translatetransform" "translate 10 10"
+	
+	"Proxies"
+	{	
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+
+	}
+}

@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/w_models/w_dynamitesfrag/w_dynamitesfragv2_large"
+	"$translucent" 1
+	$vertexcolor 1
+	"$ignorez"	"1"
+}

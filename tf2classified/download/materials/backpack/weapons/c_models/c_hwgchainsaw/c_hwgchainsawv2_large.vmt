@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\weapons\c_models\c_hwgchainsaw\c_hwgchainsawv2_large"
+	$translucent 1
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\workshop\weapons\c_models\c_pullybird\c_pullybirdv2_large"
+	$translucent 1
+}

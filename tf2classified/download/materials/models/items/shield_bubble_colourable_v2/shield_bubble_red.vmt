@@ -1,0 +1,36 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "dev/null"
+	
+	"$additive" "1"
+	
+	"$color2" "[1 1 1]"
+	"$phongtint" "[0.3 0.03 0.03]"
+	"$selfillumtint" "[0.09 0.03 0.03]"
+
+	"$phong" "1"
+
+	"$bumpmap" "dev/tfwater_normal"
+		
+	"$phongexponent" "0"
+	"$phongboost" "0"
+	"$phongfresnelranges" "[0 0 0]"
+	
+	"$rimlight" "1"
+	"$rimlightexponent" "15"
+	"$rimlightboost" "100"
+		
+	"$selfillum" "1"
+	"$selfillumfresnel" "3"
+	"$selfillumfresnelminmaxexp" "[5 10 5]"
+
+	"Proxies"
+	{	
+		"AnimatedTexture" 
+		{ 
+			"animatedTextureVar" "$bumpmap" 
+			"animatedTextureFrameNumVar" "$bumpframe" 
+			"animatedTextureFrameRate" "24" 
+		}
+	}
+}

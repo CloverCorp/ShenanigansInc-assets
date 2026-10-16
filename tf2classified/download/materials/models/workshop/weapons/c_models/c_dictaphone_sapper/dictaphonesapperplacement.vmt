@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/workshop/weapons/c_models/c_dictaphone_sapper/dictaphonesapperplacement"
+	"$surfaceprop"	"no_decal"
+	"$translucent"	1
+	"$model"		1
+	"$nocull"		1
+}

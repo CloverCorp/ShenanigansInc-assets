@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials\models\enhancedbots\scout\bot_scout_red.vmt"
+
+	insert
+	{
+		"$basetexture"			"models\enhancedbots\scout\blue\bot_scout_blue"
+	}
+}

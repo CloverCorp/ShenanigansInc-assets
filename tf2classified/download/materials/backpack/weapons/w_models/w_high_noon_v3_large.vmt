@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/weapons/w_models/w_high_noon_v3_large"
+	"$translucent"		"1"
+	"$vertexcolor"		"1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack\weapons\c_models\c_brick_watch\c_brick_watch_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

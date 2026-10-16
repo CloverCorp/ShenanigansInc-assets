@@ -1,0 +1,73 @@
+"VertexLitGeneric"
+{
+	"$basetexture"				"models\enhancedbots\soldier\red\bot_soldier_head_red"
+	"$bumpmap"					"models\enhancedbots\soldier\bot_soldier_head_normal"
+
+	"$detail"					"effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	"$detailscale"				"1.2"
+	"$detailblendfactor"		"0"
+	"$detailblendmode"			"6"
+	
+	"$phong" 					"1"
+	"$phongdisablehalflambert"	"1"
+	"$phongexponenttexture" 	"models\enhancedbots\soldier\bot_soldier_head_exp"
+	"$phongboost" 				"4"
+	"$lightwarptexture" 		"models\lightwarps\robot_lightwarp"
+	"$phongfresnelranges"		"[.5 .7 1]"
+	
+	"$EmissiveBlendEnabled"			"1"
+	"$EmissiveBlendStrength" 		"1"
+	"$EmissiveBlendTexture" 		"vgui/white"
+	"$EmissiveBlendBaseTexture"		"models\enhancedbots\soldier\bot_soldier_head_emission"
+	"$EmissiveBlendFlowTexture" 	"vgui/white"
+	"$EmissiveBlendTint" 			"[1 0.01 0.02]"
+	"$EmissiveBlendScrollVector"	"[ 0 0 ]" 
+	
+	"$rimlight"					"1"						
+	"$rimlightexponent"			"1"				
+	"$rimlightboost"			"2"
+	"$rimmask"					"1"
+
+	"$cloakPassEnabled" 		"1"
+	"$yellow" "0"
+
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" 			"$detail"
+			"animatedtextureframenumvar" 	"$detailframe"
+			"animatedtextureframerate" 		"30"
+		}
+		"BurnLevel"
+		{
+			"resultVar" 		"$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
+		"ConVarEx"
+		{
+ 			"ConVar" "tf2c_player_nohalflambert"
+  			"0"
+  	  		{
+  	   			"$PhongDisableHalfLambert"  "0"
+  	   			"$LightWarpTexture"         "models\lightwarps\robot_lightwarp"
+  	  		}
+  	 		"1"
+  	 		{
+  	 			"$PhongDisableHalfLambert"  "1"
+   				"$LightWarpTexture"         "models\player\pyro\lambert_lightwarp"
+  	 		}
+		}
+	}
+}

@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"backpack/slasher/icon_hat_spooky_large"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

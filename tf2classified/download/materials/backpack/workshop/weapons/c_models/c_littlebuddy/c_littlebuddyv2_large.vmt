@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "backpack/workshop/weapons/c_models/c_littlebuddy/c_littlebuddyv2_large"
+	"$translucent"	"1"
+	"$vertexcolor"	"1"
+	"$ignorez"	"1"
+}

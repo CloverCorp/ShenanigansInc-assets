@@ -1,0 +1,100 @@
+"VertexLitGeneric"
+{
+<<<<<<<< Updated upstream:materials/models/workshop/weapons/c_models/c_mob_minigun/c_mob_minigun.vmt
+	"$basetexture" "models/workshop/weapons/c_models/c_mob_minigun/c_mob_minigun"
+	"$basemapalphaphongmask" "1"
+	"$phongexponenttexture"	"models/workshop/weapons/c_models/c_mob_minigun/c_mob_minigun"
+
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "1.3"	
+
+
+	"$phongtint" "[0.8 1 1]"
+
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "10"	
+	"$rimlightboost" "0.2"
+
+	"$glowcolor" "1"
+
+========
+	"$baseTexture" "models/workshop/weapons/c_models/c_toothwrench/c_toothwrench_green"
+	"$basemapalphaphongmask" "1"
+
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "2"	
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		".15"
+
+	"$tempvar" "0"
+
+	"$basephongexponent" "20"
+	"$basephongboost" "2"
+
+	"$commadd_phongexponent" "30"
+	"$commadd_phongboost" 	"22.5"
+	"$commweapon"		"0"
+
+	"$glowcolor" "1"
+>>>>>>>> Stashed changes:materials/models/workshop/weapons/c_models/c_toothwrench/c_toothwrench_green.vmt
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"$sheenPassEnabled" "1"
+
+	"$sheenmap" 		"cubemaps\cubemap_sheen001"
+	"$sheenmapmask" 		"Effects\AnimatedSheen\animatedsheen0"
+	"$sheenmaptint" 		"[ 1 1 1 ]"
+	"$sheenmapmaskframe" 	"0"
+	"$sheenindex" 		"0"
+
+	"$yellow" "0"
+
+	"Proxies"
+	{
+		"AnimatedWeaponSheen"
+		{
+			"animatedtexturevar" 		"$sheenmapmask"
+			"animatedtextureframenumvar" 	"$sheenmapmaskframe"
+			"animatedtextureframerate" 		"40"
+		}
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Multiply"
+		{
+			"srcVar1" "$color2"
+			"srcVar2" "$yellow"
+			"resultVar" "$color2"
+		}
+		"WeaponSkin"
+		{
+		}
+	}
+}
