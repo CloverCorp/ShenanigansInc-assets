@@ -13,5 +13,5 @@ If you see somebody using weapons that are not in your schema check back here to
 ## Due to github file size limitations the maps are in a seperate download
 
 If any textures/weapons are missing ping @silverparasolgames in the Shenanigans Inc discord which is linked below <br/>
-[Shenanigans Inc discord link](https://discord.com/invite/7U5EAyjgh5)) <br/>
+[Shenanigans Inc discord link](https://discord.com/invite/sinc)) <br/>
 thank you to user "girthquake" for the repo formatting.
