@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "backpack/weapons/c_models/c_creaturerejuv/c_creaturerejuvv3_large"
+	"$translucent" 1
+	$vertexcolor 1
+}

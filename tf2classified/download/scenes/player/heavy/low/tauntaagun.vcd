@@ -1,0 +1,55 @@
+// Choreo version 1
+actor "Heavy"
+{
+  channel "body"
+  {
+    event sequence "tauntaagun"
+    {
+      time 0.000000 3.466667
+      param "taunt07"
+      fixedlength
+    }
+  }
+  channel "audio"
+  {
+  }
+  channel "emotion"
+  {
+    event expression "happy1"
+    {
+      time 1.600000 4.000000
+      param "player\heavy\emotion\emotion"
+      param2 "happy1"
+      event_ramp
+      {
+        0.1788 0.7843
+        0.7273 0.9804
+        1.2323 1.0000
+      }
+    }
+    event expression "idleface"
+    {
+      time 0.150000 1.500000
+      param "player\heavy\emotion\emotion"
+      param2 "idleface"
+      event_ramp
+      {
+        0.1820 1.0000
+        0.9718 1.0000
+        1.3534 0.0000
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

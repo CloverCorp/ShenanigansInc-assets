@@ -1,0 +1,17 @@
+// Choreo version 1
+actor "Pyro"
+{
+  channel "animation"
+  {
+    event sequence "gas"
+    {
+      time 0.000000 6.433333
+      param "taunt_gasblast"
+      fixedlength
+    }
+  }
+}
+
+fps 60
+snap off
+ignorePhonemes off

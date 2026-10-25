@@ -1,0 +1,47 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 11.750002 -1.000000
+  param "0.580000"
+  loopcount "-1"
+}
+actor "Pyro"
+{
+  channel "body"
+  {
+    event sequence "taunt_russian"
+    {
+      time 0.000000 11.800000
+      param "taunt_russian"
+      event_ramp
+      {
+        0.0000 1.0000
+        11.7667 1.0000
+      }
+      fixedlength
+    }
+  }
+  channel "audio"
+  {
+    event speak "pyro_taunt_russian_rand"
+    {
+      time 3.391667 4.463073
+      param "pyro_taunt_russian_rand"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Pyro.PositiveVocalization01"
+    {
+      time 0.066667 0.904014
+      param "Pyro.PositiveVocalization01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+fps 60
+snap off
+ignorePhonemes off

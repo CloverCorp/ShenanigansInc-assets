@@ -1,0 +1,17 @@
+// Choreo version 1
+actor "engys_new_chair_articlulated"
+{
+  channel "body"
+  {
+    event sequence "chair_outro_qcistyle"
+    {
+      time 0.000000 2.266667
+      param "chair_outro_qcistyle"
+      fixedlength
+    }
+  }
+}
+
+fps 60
+snap off
+ignorePhonemes off
